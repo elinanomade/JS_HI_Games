@@ -1,0 +1,31 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(244, 236, 90);
+
+}
+
+.container {
+    border: solid black 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8%;
+    background-color: white;
+}
+
+#submitguess {
+    background-color: rgb(226, 138, 13);
+}

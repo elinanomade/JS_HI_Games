@@ -1,0 +1,58 @@
+/* body,
+#quote,
+#author {
+  background-color: rgb(231, 138, 17);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+
+.container,
+.main-container {
+  background-color: rgb(231, 138, 17);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.quoteContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 50px;
+  width: 80%;
+  /* border: 1px solid grey; 
+  border-radius: 20px; */
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+.btn-1 {
+  color: rgb(67, 17, 3);
+  background-color: rgb(240, 190, 116);
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.btn-1:hover {
+  color: blanchedalmond;
+  background-color: rgb(99, 19, 11);
+}
+
+#quote {
+  font-family: "Ariel";
+  text-align: center;
+  font-size: 2rem;
+}
+
+#author {
+  font-size: 1rem;
+  margin-top: 10px;
+  font-family: "Ariel";
+}

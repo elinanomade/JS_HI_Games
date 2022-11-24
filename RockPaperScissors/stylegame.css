@@ -1,0 +1,40 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        to right,
+        rgb(199, 244, 65),
+        rgb(232, 197, 111),
+        rgb(246, 79, 89)
+      );
+}
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+    background-color: rgb(69, 6, 65);
+    color: white;
+    font-family: cursive;
+    border-color: rgb(255, 255, 255);
+}
+#gameDiv{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgba(228, 25, 214, 0.316);
+    text-align: center;
+}
+#playerText{
+    color: rgb(64, 7, 79);
+}
+#computerText{
+    color: rgb(232, 34, 150);
+}
